@@ -136,15 +136,21 @@
     image.src = item.image;
     major.appendChild(image);
 
+        // Create title element
+     const title = document.createElement('p');
+     title.textContent = ` ${item.title}`;
+     title.style.fontWeight = 'bold';
+     major.appendChild(title);
+
+      // Create date element
+    const date = document.createElement('p');
+    date.textContent = ` ${item.date}`;
+    major.appendChild(date);
+
     // Create company element
     const company = document.createElement('p');
     company.textContent = `Company: ${item.company}`;
     major.appendChild(company);
-
-    // Create location element
-    const location = document.createElement('p');
-    location.textContent = `Location: ${item.location}`;
-    major.appendChild(location);
 
     // Create price element
     const price = document.createElement('p');
