@@ -1,0 +1,12 @@
+.major{
+    h1{
+        text-align: center;
+    }
+}
+.text {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 470px;
+}
