@@ -1,0 +1,25 @@
+GET http://localhost:3000/lists
+
+GET http://localhost:3000/lists/14
+
+POST http://localhost:3000/newList
+Content-Type: application/json
+
+[
+    {
+        "id":15,
+        "name":"learning views and indexes",
+        "completed":true
+    },
+    
+    {
+        "id":16,
+        "name":"learning html and css",
+        "completed":false
+    },
+      {
+        "id":17,
+        "name":"meeting with mentor",
+        "completed":false
+    }
+]
